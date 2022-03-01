@@ -1,1 +1,1 @@
-SCORES_FILE_NAME = open("Scores.txt","x")
+SCORES_FILE_NAME = Scores.txt"
