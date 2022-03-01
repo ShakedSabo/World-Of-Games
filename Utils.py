@@ -1,1 +1,1 @@
-SCORES_FILE_NAME = Scores.txt"
+SCORES_FILE_NAME = 'Scores.txt'
