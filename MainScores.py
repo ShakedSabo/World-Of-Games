@@ -8,6 +8,7 @@ def score_server():
     try:
         score_file = open("Scores.txt", "r")
         score = score_file.read()
+        score_file.close()
         print(score)
         return render_template("score.html", SCORE=score)
     except FileNotFoundError or FileExistsError:
